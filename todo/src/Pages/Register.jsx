@@ -71,7 +71,7 @@ const Register = () => {
   }, [navigate]);
 
   return (
-    <div className="bg-gradient-to-r from-teal-500 to-blue-500 p-3 text-white flex justify-center items-center">
+    <div className="bg-gradient-to-r from-teal-500 to-blue-500 p-3 text-white flex justify-center items-center min-h-screen">
       <div className="bg-white rounded-xl shadow-lg p-8 w-full max-w-md">
         <h1 className="text-4xl font-semibold text-center text-gray-800 mb-6">Register</h1>
         <form onSubmit={handleSubmit} className="space-y-6">
